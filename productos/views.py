@@ -5,7 +5,7 @@ from .serializers import CategoriaSerializer, ProductoSerializer
 
 
 class CategoriaViewSet(viewsets.ModelViewSet):
-    queryset = Categoria.objects.all()
+    queryset = Categoria.objects.all().order_by('id')
     serializer_class = CategoriaSerializer
 
     def get_permissions(self):
@@ -16,7 +16,7 @@ class CategoriaViewSet(viewsets.ModelViewSet):
 
 
 class ProductoViewSet(viewsets.ModelViewSet):
-    queryset = Producto.objects.all()
+    queryset = Producto.objects.all().order_by('id')
     serializer_class = ProductoSerializer
     search_fields = ['nombre']
     filterset_fields = ['categoria']
