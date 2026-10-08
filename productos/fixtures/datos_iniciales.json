@@ -1,0 +1,18 @@
+[
+  { "model": "productos.categoria", "pk": 1, "fields": { "nombre": "Calzado" } },
+  { "model": "productos.categoria", "pk": 2, "fields": { "nombre": "Camisetas" } },
+  { "model": "productos.categoria", "pk": 3, "fields": { "nombre": "Shorts" } },
+  { "model": "productos.categoria", "pk": 4, "fields": { "nombre": "Guantes" } },
+  { "model": "productos.categoria", "pk": 5, "fields": { "nombre": "Medias" } },
+
+  { "model": "productos.producto", "pk": 1, "fields": { "nombre": "Botines adidas Predator League FG", "descripcion": "Botines de alto rendimiento para terreno firme.", "imagen": "", "marca": "adidas", "precio": "120000.00", "stock": 50, "categoria": 1 } },
+  { "model": "productos.producto", "pk": 2, "fields": { "nombre": "Botines Nike Mercurial Vapor 16 Academy", "descripcion": "Botines livianos para mayor velocidad.", "imagen": "", "marca": "Nike", "precio": "135000.00", "stock": 45, "categoria": 1 } },
+  { "model": "productos.producto", "pk": 3, "fields": { "nombre": "Botines Puma Future 7 Play FG/AG", "descripcion": "Botines versátiles para distintos terrenos.", "imagen": "", "marca": "Puma", "precio": "98000.00", "stock": 40, "categoria": 1 } },
+  { "model": "productos.producto", "pk": 4, "fields": { "nombre": "Camiseta adidas Seleccion Argentina 2026", "descripcion": "Camiseta titular oficial de la seleccion.", "imagen": "", "marca": "adidas", "precio": "119999.00", "stock": 32, "categoria": 2 } },
+  { "model": "productos.producto", "pk": 5, "fields": { "nombre": "Camiseta Nike Boca Juniors 2025", "descripcion": "Camiseta titular oficial del club.", "imagen": "", "marca": "Nike", "precio": "139999.00", "stock": 35, "categoria": 2 } },
+  { "model": "productos.producto", "pk": 6, "fields": { "nombre": "Short adidas Seleccion Argentina 2026", "descripcion": "Short deportivo liviano y comodo.", "imagen": "", "marca": "adidas", "precio": "74999.00", "stock": 38, "categoria": 3 } },
+  { "model": "productos.producto", "pk": 7, "fields": { "nombre": "Short Nike Dri-FIT Academy", "descripcion": "Short con tecnologia de secado rapido.", "imagen": "", "marca": "Nike", "precio": "59999.00", "stock": 42, "categoria": 3 } },
+  { "model": "productos.producto", "pk": 8, "fields": { "nombre": "Guantes de Arquero Reusch Attrakt Starter", "descripcion": "Guantes con buen agarre para arqueros.", "imagen": "", "marca": "Reusch", "precio": "69999.00", "stock": 25, "categoria": 4 } },
+  { "model": "productos.producto", "pk": 9, "fields": { "nombre": "Medias adidas Milano 23", "descripcion": "Medias deportivas resistentes.", "imagen": "", "marca": "adidas", "precio": "24999.00", "stock": 60, "categoria": 5 } },
+  { "model": "productos.producto", "pk": 10, "fields": { "nombre": "Canilleras Nike Charge Football", "descripcion": "Canilleras livianas con buena proteccion.", "imagen": "", "marca": "Nike", "precio": "34999.00", "stock": 30, "categoria": 4 } }
+]
