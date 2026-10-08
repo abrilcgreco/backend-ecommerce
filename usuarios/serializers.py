@@ -1,6 +1,8 @@
 from django.contrib.auth.models import User
 from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
+from .models import Mensaje
+
 
 
 class RegistroSerializer(serializers.ModelSerializer):
@@ -36,3 +38,11 @@ class RegistroSerializer(serializers.ModelSerializer):
             password=validated_data['password']
         )
         return user
+
+
+
+class MensajeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Mensaje
+        fields = ['id', 'nombre', 'correo', 'mensaje', 'fecha']
+        read_only_fields = ['id', 'fecha']
