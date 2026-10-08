@@ -5,4 +5,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('productos.urls')),
     path('api/auth/', include('usuarios.urls')),
+    path('api/', include('carrito.urls')),
+    path('api-auth/', include('rest_framework.urls')),
 ]
